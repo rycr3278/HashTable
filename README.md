@@ -1,3 +1,29 @@
+# Summary of Hash Table
+
+**Focus:** 
+This assignment is centered around the implementation of a Hash Table, a fundamental data structure in computer science used for efficient data retrieval. The project delves into the concept of hashing, which is a technique to uniquely identify objects from a group of similar objects. It was originally assigned as a class project for CSCI 2270 - Data Structures.
+
+**Key Skills Developed:**
+- Understanding and implementing hash functions to convert large keys into small, manageable indices.
+- Handling real-time analysis of data structure capacity and dynamic resizing to maintain efficiency.
+- Dealing with hash collisions and ensuring uniform distribution of entries across the hash table.
+
+**Project Structure:**
+- Primary implementation is in `Hash.cpp` and `Hash.h`.
+- The project includes tests (`test_Hash.cpp`) to validate the functionality of the Hash Table.
+
+**Assignment Highlights:**
+- The Hash class encapsulates the functionality of a Hash Table, including initialization, key-value pair setting, and value retrieval.
+- Focus on key operations like `SetKVP`, `GetVal`, `Contains`, `Remove`, and `Resize`.
+- Emphasis on understanding and managing the load factor of the hash table.
+
+**Learning Insights:**
+- Encourages a strategic approach to problem-solving, emphasizing the importance of planning and algorithm development before coding.
+- Highlights the need for creating and testing helper functions for more efficient and error-free implementation.
+- Suggests modifying `main.cpp` for initial testing and understanding how the hash table functions in different scenarios.
+
+**Below are the original assignment instructions, unaltered.**
+
 # CSCI 2270 – Data Structures - Assignment 7
 ## Overview
 
